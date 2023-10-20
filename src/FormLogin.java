@@ -63,6 +63,11 @@ public class FormLogin extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(51, 255, 153));
         jButton2.setText("Login");
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jToggleButton1.setBackground(new java.awt.Color(242, 242, 242));
         jToggleButton1.setForeground(new java.awt.Color(0, 102, 255));
@@ -137,6 +142,11 @@ public class FormLogin extends javax.swing.JFrame {
         // TODO add your handling code here:
         new FormRegister().setVisible(true);
     }//GEN-LAST:event_jToggleButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+     
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
